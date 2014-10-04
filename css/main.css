@@ -5,7 +5,44 @@ body{
 #container{
 	margin: 0 auto;
 	background-color: #ddd;
-	color: #F5AE23;
-	width: 1000px;
+	width: 800px;
 	text-align: center;
+	padding: 10px 10px 60px 10px;
 }
+
+#container h1,h2 {
+	color: #660000;
+}
+
+#container form {
+	color: #ff9900;
+}
+
+#results {
+	background-color: #996c66;
+	width: 320px;
+	color: white;
+	margin: 10px auto;
+}
+
+header{
+	background-color: #ffcc33;
+	margin: 0 auto;
+	color: #fff;
+	padding: 25px 10px;
+	text-align: center;
+	width: 800px;
+	border-bottom: 1px solid #009999;
+
+}
+footer{
+	background-color: #996c66;
+	margin: 0 auto;
+	color: #ffcc00;
+	padding: 25px 10px;
+	text-align: center;
+	width: 800px;
+	border-top: 1px solid #009999;
+}
+
+

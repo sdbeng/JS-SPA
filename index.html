@@ -6,10 +6,41 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<header class="top-css">Welcome to my JS project!</header>
+
 	<div id="container">
 		<h1>Welcome</h1>
 		<h2>Adder / Subtractor</h2>
+
+	<div class="layform">
+		<form id="calcForm" action="" method="post">
+			<label>x:</label>
+			<input type="text" id="firstNumber" placeholder="enter number" required><br><br>
+
+			<label>y:</label>
+			<input type="text" id="secondNumber" placeholder="enter number" required><br><br>
+
+			<input type="button" id="btnplus" value="+" >
+			<input type="button" id="btnminus" value="-" >
+
+			<input type="button" id="btnreset" value="Reset">
+
+			<br>
+			<div id="calcresults" class="results-msg">
+				
+				<div id="results"></div>
+				
+				<!-- operation results show here -dynamically appended to this div -->
+			</div>
+			
+		</form>
 	</div>
+
+	</div>
+
+	<footer class="bottom-css">
+		2014 Copyright SDBWebs.
+	</footer>
 
 
 
